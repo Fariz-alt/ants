@@ -1,0 +1,28 @@
+Package: ants
+Type: Package
+Title: Tools for Linear Regression, Diagnostics, and Assumption Testing
+Version: 0.1.0
+Authors@R: 
+    person("Alfarizi", "Nasaruddin",
+           email = "alfaridzinasaruddin@gmail.com",
+           role = c("aut", "cre"))
+Description: 
+    Provides an integrated function 'flm' that fits linear regression models
+    and returns regression equation, partial and simultaneous test results 
+    (with conclusions), VIF, classical assumptions diagnostics (normality, 
+    heteroskedasticity, autocorrelation) and interpretation of R-squared values.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.1)
+Imports:
+    stats,
+    utils,
+    car,
+    knitr
+Suggests:
+    kableExtra,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.3.3
